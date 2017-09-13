@@ -1,0 +1,34 @@
+{
+  "name": "tracky-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eval $(cat .env.develop) nodemon",
+    "pg": "postgres -D /usr/local/var/postgres -p 5432"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ven/tracky-backend.git"
+  },
+  "author": "1ven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1ven/tracky-backend/issues"
+  },
+  "homepage": "https://github.com/1ven/tracky-backend#readme",
+  "dependencies": {
+    "pg-promise": "^6.4.0",
+    "ramda": "^0.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.23",
+    "@types/pg-promise": "^5.4.3",
+    "@types/ramda": "^0.24.7",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.3.0",
+    "tsconfig-paths": "^2.2.0",
+    "typescript": "^2.4.2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "target": "es6",
+    "baseUrl": "./src"
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}
